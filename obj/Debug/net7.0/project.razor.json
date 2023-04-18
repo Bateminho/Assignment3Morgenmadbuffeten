@@ -18650,6 +18650,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Pages\\Restaurant\\Restaurant.cshtml",
+      "TargetPath": "Pages\\Restaurant\\Restaurant.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Pages\\Reception\\Reception.cshtml",
+      "TargetPath": "Pages\\Reception\\Reception.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -18657,6 +18667,11 @@
     {
       "FilePath": "c:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Pages\\Kitchen\\Kitchen.cshtml",
+      "TargetPath": "Pages\\Kitchen\\Kitchen.cshtml",
       "FileKind": "mvc"
     },
     {

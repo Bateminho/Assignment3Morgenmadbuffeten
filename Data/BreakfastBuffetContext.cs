@@ -15,6 +15,6 @@ namespace Assignment3Morgenmadbuffeten.Data
 
         public DbSet<Kitchen> Kitchens { get; set; }
         public DbSet<Reception> Receptions { get; set; }
-        public DbSet<Reception> Receptions { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
     }
 }

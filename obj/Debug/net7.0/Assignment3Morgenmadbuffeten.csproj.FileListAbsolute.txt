@@ -279,3 +279,4 @@ C:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\obj\Debug\net7.0
 C:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\obj\Debug\net7.0\Assignment3Morgenmadbuffeten.pdb
 C:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\obj\Debug\net7.0\Assignment3Morgenmadbuffeten.genruntimeconfig.cache
 C:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\obj\Debug\net7.0\ref\Assignment3Morgenmadbuffeten.dll
+C:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
