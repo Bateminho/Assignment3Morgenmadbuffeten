@@ -4,17 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Assignment3Morgenmadbuffeten.Data;
 using Microsoft.Extensions.Logging;
 
-namespace Assignment3Morgenmadbuffeten.Pages
+namespace Assignment3Morgenmadbuffeten.Pages.Reception
 {
     public class Reception : PageModel
     {
-        private readonly ILogger<Reception> _logger;
+        private readonly BreakfastBuffetDbContext _context;
 
-        public Reception(ILogger<Reception> logger)
+        public Reception (BreakfastBuffetDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public void OnGet()

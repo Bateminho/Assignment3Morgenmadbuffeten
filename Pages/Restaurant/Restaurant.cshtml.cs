@@ -5,16 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Assignment3Morgenmadbuffeten.Data;
 
-namespace Assignment3Morgenmadbuffeten.Pages
+namespace Assignment3Morgenmadbuffeten.Pages.Restaurant
 {
     public class Restaurant : PageModel
     {
-        private readonly ILogger<Restaurant> _logger;
+        private readonly BreakfastBuffetDbContext _context;
 
-        public Restaurant(ILogger<Restaurant> logger)
+        public Restaurant(BreakfastBuffetDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public void OnGet()

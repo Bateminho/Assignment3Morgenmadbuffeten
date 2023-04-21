@@ -1,0 +1,40 @@
+﻿@page
+@model Assignment3Morgenmadsbuffeten.Pages.Kitchen.BreakfastReportModel
+@{
+}
+
+<div class="border border-primary rounded">
+
+    <form class="mx-4 mt-4" method="post">
+        <div class="form-group d-flex mb-4">
+            <input class="form-control" type="date" data-val="true" asp-for="Input.Date" />
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </form>
+
+    <div class=" d-flex justify-content-center">
+
+        <div class="m-4">
+            <h3>Expected guests:</h3>
+            <h4>Adults</h4>
+            @Html.DisplayFor(x => x._expectedAdults)
+            <h4>Children</h4>
+            @Html.DisplayFor(x => x._expectedChildren)
+            <h4>Total</h4>
+            @Html.DisplayFor(x => x._expectedTotal)
+        </div>
+        <div class="m-4">
+            <h3>Guests checked in:</h3>
+            <h4>Adults</h4>
+            @Html.DisplayFor(x => x._CheckedInAdults)
+            <h4>Children</h4>
+            @Html.DisplayFor(x => x._checkedInChildren)
+        </div>
+    </div>
+    <div class="text-center my-4">
+        <img width="400" src="<img src="c:\Users\Sean\source\repos\BackEnd\Assignment3Morgenmadbuffeten\Images\breakfast.jpg"/>
+    </div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/kitchen.js"></script>

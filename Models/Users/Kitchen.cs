@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace Assignment3Morgenmadbuffeten.Models.Users
 {
-    public class Kitchen
-    {
-        
-    }
+    public class Kitchen : IdentityUser {}
 }
