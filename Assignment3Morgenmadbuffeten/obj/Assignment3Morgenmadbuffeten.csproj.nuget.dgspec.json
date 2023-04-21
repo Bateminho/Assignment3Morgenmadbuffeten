@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sean\\source\\repos\\BackEnd\\Ny\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj": {}
+    "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sean\\source\\repos\\BackEnd\\Ny\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj": {
+    "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Ny\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
+        "projectUniqueName": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
         "projectName": "Assignment3Morgenmadbuffeten",
-        "projectPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Ny\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
+        "projectPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
         "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Ny\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\obj\\",
+        "outputPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,18 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -55,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
             }
           },
           "imports": [

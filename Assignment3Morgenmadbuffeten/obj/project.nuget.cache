@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SxQzoCQOqaisBYDTr7ZN/wp2XDpyVIGD2VvHweYHjWtzrASUfyhUIYq83Gd+IaV1zIpLRBFpgMOs/p4RffS9PQ==",
+  "dgSpecHash": "/aUU+LhdVXq5XtbYXHpWY1mZLQITVEP6D2+q63tf/wZxFjMEznDja0Jro8GPOfmFihHA6BilqyWKEAkp7MYzFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadsbuffeten.csproj",
+  "projectFilePath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sean\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Sean\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

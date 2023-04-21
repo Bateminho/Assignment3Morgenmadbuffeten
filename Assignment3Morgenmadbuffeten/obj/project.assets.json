@@ -11061,9 +11061,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadsbuffeten.csproj",
-      "projectName": "Assignment3Morgenmadsbuffeten",
-      "projectPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadsbuffeten.csproj",
+      "projectUniqueName": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
+      "projectName": "Assignment3Morgenmadbuffeten",
+      "projectPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten.csproj",
       "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\obj\\",
       "projectStyle": "PackageReference",

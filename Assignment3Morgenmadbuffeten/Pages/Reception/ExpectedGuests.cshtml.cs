@@ -4,10 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using Assignment3Morgenmadbuffeten.Data;
-using Assignment3Morgenmadsbuffeten.Models;
+using Assignment3Morgenmadbuffeten.Models;
 
-namespace Assignment3Morgenmadsbuffeten.Pages.Reception
+namespace Assignment3Morgenmadbuffeten.Pages.Reception
 {
         [Authorize("Reception")]
         public class ExpectedGuestsModel : PageModel
@@ -46,9 +47,10 @@ namespace Assignment3Morgenmadsbuffeten.Pages.Reception
                     Date = Input.Date
                 };
 
+                Debug.Assert(_context.ExpectedBreakfastGuests != null, "_context.ExpectedBreakfastGuests != null");
                 _context.ExpectedBreakfastGuests.Add(expectedBreakfastGuests);
                 await _context.SaveChangesAsync();
-                _kitchenHub.Clients.All.KitchenUpdate();
+            await _kitchenHub.Clients.All.KitchenUpdate();
                 return Page();
             }
 

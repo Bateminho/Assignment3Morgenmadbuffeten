@@ -1,7 +1,7 @@
 ﻿using Assignment3Morgenmadbuffeten.Models.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Assignment3Morgenmadsbuffeten.Models;
+using Assignment3Morgenmadbuffeten.Models;
 
 
 namespace Assignment3Morgenmadbuffeten.Data

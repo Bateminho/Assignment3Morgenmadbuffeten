@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
 using System.ComponentModel.DataAnnotations;
 using Assignment3Morgenmadbuffeten.Data;
-using Assignment3Morgenmadsbuffeten.Models;
+using Assignment3Morgenmadbuffeten.Models;
 
-namespace Assignment3Morgenmadsbuffeten.Pages.Restaurant
+namespace Assignment3Morgenmadbuffeten.Pages.Restaurant
 {
-    [Authorize("Waiter")]
+    [Authorize("Restaurant")]
     public class GuestCheckInModel : PageModel
     {
         private readonly BreakfastBuffetDbContext _context;
@@ -36,7 +36,7 @@ namespace Assignment3Morgenmadsbuffeten.Pages.Restaurant
 
         public async Task<IActionResult> OnPostAsync()
         {
-            var breakfastCheckin = new CheckInBreakfastBuffetGuest
+            var breakfastCheckIn = new CheckInBreakfastBuffetGuest
             {
                 Adults = Input.Adults,
                 Children = Input.Children,
@@ -44,9 +44,9 @@ namespace Assignment3Morgenmadsbuffeten.Pages.Restaurant
                 RoomNumber = Input.RoomNumber
             };
 
-            _context.CheckInBreakfastBuffetGuests.Add(breakfastCheckin);
+            _context.CheckInBreakfastBuffetGuests.Add(breakfastCheckIn);
             await _context.SaveChangesAsync();
-            _kitchenHub.Clients.All.KitchenUpdate();
+            await _kitchenHub.Clients.All.KitchenUpdate();
             return Page();
         }
 

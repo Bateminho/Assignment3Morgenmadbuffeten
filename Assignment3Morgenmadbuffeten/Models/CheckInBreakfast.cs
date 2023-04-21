@@ -1,4 +1,4 @@
-namespace Assignment3Morgenmadsbuffeten.Models
+namespace Assignment3Morgenmadbuffeten
 {
     public class CheckInBreakfastBuffetGuest
     {

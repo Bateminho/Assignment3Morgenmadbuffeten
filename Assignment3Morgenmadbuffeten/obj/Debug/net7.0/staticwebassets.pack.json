@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Assignment3Morgenmadsbuffeten.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Assignment3Morgenmadsbuffeten.bundle.scp.css"
+      "Id": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Assignment3Morgenmadbuffeten.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Assignment3Morgenmadbuffeten.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Sean\\source\\repos\\BackEnd\\Assignment3Morgenmadbuffeten\\Assignment3Morgenmadbuffeten\\wwwroot\\css\\site.css",
@@ -257,20 +257,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Assignment3Morgenmadsbuffeten.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Assignment3Morgenmadbuffeten.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Assignment3Morgenmadsbuffeten.props",
-      "PackagePath": "build\\Assignment3Morgenmadsbuffeten.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Assignment3Morgenmadbuffeten.props",
+      "PackagePath": "build\\Assignment3Morgenmadbuffeten.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Assignment3Morgenmadsbuffeten.props",
-      "PackagePath": "buildMultiTargeting\\Assignment3Morgenmadsbuffeten.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Assignment3Morgenmadbuffeten.props",
+      "PackagePath": "buildMultiTargeting\\Assignment3Morgenmadbuffeten.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Assignment3Morgenmadsbuffeten.props",
-      "PackagePath": "buildTransitive\\Assignment3Morgenmadsbuffeten.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Assignment3Morgenmadbuffeten.props",
+      "PackagePath": "buildTransitive\\Assignment3Morgenmadbuffeten.props"
     }
   ],
   "ElementsToRemove": []

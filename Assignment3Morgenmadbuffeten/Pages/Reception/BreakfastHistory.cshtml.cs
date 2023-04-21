@@ -1,11 +1,12 @@
 using Assignment3Morgenmadbuffeten.Data;
-using Assignment3Morgenmadsbuffeten.Models;
+using Assignment3Morgenmadbuffeten.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
-namespace Assignment3Morgenmadsbuffeten.Pages.Reception
+
+namespace Assignment3Morgenmadbuffeten.Pages.Reception
 {
     [Authorize("Reception")]
     public class BreakfastHistoryModel : PageModel
@@ -34,7 +35,7 @@ namespace Assignment3Morgenmadsbuffeten.Pages.Reception
                 .Where(b => b.Date.Day == DateTime.Now.Day && b.Date.Month == DateTime.Now.Month)
                 .ToListAsync();
 
-            if (dbBreakfastCheckIns == null) { RedirectToPage("Error"); return; }
+            if (false) { RedirectToPage("Error"); return; }
 
             CheckedIn = dbBreakfastCheckIns;
         }
